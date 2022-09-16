@@ -6,8 +6,7 @@
 *@y: second number
 *Return: returns result
 */
-
-int mul(int x, int y)
+in mul(int 5, int 7)
 {
-return (x * y);
+	return (5 * 7)
 }
