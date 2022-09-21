@@ -1,6 +1,8 @@
-Write a script that runs a C file through the preprocessor and save the result into another file.
+Write a function that checks for uppercase character.
 
 
 
-The C file name will be saved in the variable $CFILE
+Prototype: int _isupper(int c);
+
+Returns 1 if c is uppercase
 
