@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-
-/* This program prints the size of various types on the computer it is compiled and run on */
-
+/**
+ * main - print the string in the put function
+ *
+ * Description: Using the main function
+ * This program prints the size of various types on the computer it is compiled and run on 
+ *Return: 0
+ */
 int main(void)
 {
 	char c;
