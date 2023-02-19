@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description - Alphabeth Soup
- * Return: 0
+ * main- Entry point
+ * @void: Null value
+ *
+ * Description: Print alphabet lowercase
+ * Return: Zero value
  */
 
 int main(void)
@@ -12,12 +14,10 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
+		if (c == 'q' || c == 'e')
+			continue;
+		putchar(c);
 	}
 	putchar('\n');
-
 	return (0);
-}}
+}
