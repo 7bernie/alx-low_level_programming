@@ -3,23 +3,18 @@
 /**
  * main - Entry point
  *
- *
- * Return: 0
+ * Return: Always 0 (Succes)
  */
 
 int main(void)
 {
-int a;
+	int n;
 
-for (a = 0; a < 10; a++)
-	int a;
-
-	for (a = 0; a < 10; a++)
-		printf("%i", a);
-printf("\n");
-
-	printf("\n");
+	for (n = 0 ; n < 10 ; n++)
+	{
+		printf("%d", n);
+	}
+	putchar('\n');
 	return (0);
-
 }
 
