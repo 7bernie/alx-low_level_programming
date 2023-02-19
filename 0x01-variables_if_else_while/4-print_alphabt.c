@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 /**
- *
- *
- * Return: 0
- */
  * main - Entry point
- *
+ * Description - Alphabeth Soup
  * Return: 0
  */
 
 int main(void)
 {
-	char b;
+	char c;
 
-	for (b = 'a'; b<= 'z'; b++)
-	for (b = 'a'; b <= 'z'; b++)
-		if (b != 'q' && b != 'e')
-			putchar(b);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+	}
 	putchar('\n');
+
 	return (0);
-}
+}}
