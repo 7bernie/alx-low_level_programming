@@ -1,23 +1,25 @@
 #include <stdio.h>
 
 /**
-*
-*
-* Return: 0
-*/
  * main - Entry point
  *
- * Return: 0
+ *
+ * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
-	char b;
+	char c;
 
-	for (b = 'a'; b<= 'z'; b++)
-	for (b = 'a'; b <= 'z'; b++)
-	if (b != 'q' && b != 'e')
-	putchar(b);
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+		if ((c == 'q' || c == 'e') != 1)
+		{
+			putchar(c);
+		}
+
+	}
 	putchar('\n');
 	return (0);
+}
 }
