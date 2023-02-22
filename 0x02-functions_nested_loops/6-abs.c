@@ -1,4 +1,4 @@
-#include "<main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -16,6 +16,6 @@ int _abs(int b)
 	return (b);
 	}
 	else
-	return (b * -1);
+	return (b *  -1);
 }
 
