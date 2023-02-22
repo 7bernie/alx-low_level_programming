@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - wirte the the lower-case alphabet on a line.
- * print_alphabet_x10 - function to print 10 times the alphabet in lowercase
+ * print_alphabet_x10 - function to print alphabet in lowercase 10 times
  *
  */
 void print_alphabet_x10(void)
