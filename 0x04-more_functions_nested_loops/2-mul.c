@@ -1,12 +1,13 @@
-Â#include "main.h"
+#include "main..h"
 
 /**
-*mul - multiples two numbers
-*@x: firt number
-*@y: second number
-*Return: returns result
+*mul - multiples two number
+*@a: first number
+*@b: second number
+*Return: returns the  result
 */
-in mul(int 5, int 7)
+
+int mul(int a, int b)
 {
-	return (5 * 7)
+	return (a * b);
 }
