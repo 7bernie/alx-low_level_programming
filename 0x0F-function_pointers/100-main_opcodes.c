@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
- * @argc: argument count.
- * @argv: argument vector.
+ * main - prints the opcodes of its function in hexadecimal, lowercase
+ * @argc: argument counts
+ * @argv:  argument vectors
  *
  * Return: Always 0.
  */
