@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *read_textfile - reads a text file and prints the letters
- *@filename: the name of file to create.
- *@letters: numbers of letters printed.
+ * read_textfile - reads a text file and prints the letters
+ * @filename: name of file to create.
+ * @letters: numbers of letters printed.
  *
- *Return: 1 on success, -1 on failure
+ * Return: 1 on success, -1 on failure.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
